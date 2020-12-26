@@ -51,7 +51,7 @@ will redirect you to pm, with all that chat's settings.
 {}
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with `/` or `!`.\n")
 
-LYNDA_IMG = "https://telegra.ph/file/aa808a7a26a011cdf613e.jpg"
+LYNDA_IMG = "https://telegra.ph/file/832a298d6cd999992f4db.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Lynda is hosted on one of Digital Ocean Servers. \
@@ -146,7 +146,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="👥 Add Lynda to your group", url="https://t.me/LyndaRobot?startgroup=new")],
+                [[InlineKeyboardButton(text="👥 Add Sistine fibel to your group", url="https://t.me/LyndaRobot?startgroup=new")],
                 [InlineKeyboardButton(text="🙋 Support Group", url="https://t.me/LyndaEagleSupport"),
                 InlineKeyboardButton(text="🚫 Global Logs", url="https://t.me/LyndaGLogs")],
                 [InlineKeyboardButton(text="❔ Help", url="https://t.me/LyndaRobot?start=help"),
